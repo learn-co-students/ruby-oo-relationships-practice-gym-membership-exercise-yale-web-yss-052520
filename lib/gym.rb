@@ -4,4 +4,8 @@ class Gym
   def initialize(name)
     @name = name
   end
+
+  def speak
+    "hello!"
+  end
 end
